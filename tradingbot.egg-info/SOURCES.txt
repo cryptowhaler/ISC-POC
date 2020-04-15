@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+tradingbot/__init__.py
+tradingbot/__main__.py
+tradingbot/main.py
+tradingbot.egg-info/PKG-INFO
+tradingbot.egg-info/SOURCES.txt
+tradingbot.egg-info/dependency_links.txt
+tradingbot.egg-info/entry_points.txt
+tradingbot.egg-info/not-zip-safe
+tradingbot.egg-info/requires.txt
+tradingbot.egg-info/top_level.txt
