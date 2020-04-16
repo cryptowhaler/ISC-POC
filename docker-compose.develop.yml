@@ -6,15 +6,15 @@ services:
       context: .
       dockerfile: "./Dockerfile.develop"
     volumes:
-      - ".:/freqtrade"
+      - ".:/tradingbot"
     entrypoint:
-      - "freqtrade"
+      - "tradingbot"
 
   freqtrade_bash:
     build:
       context: .
       dockerfile: "./Dockerfile.develop"
     volumes:
-      - ".:/freqtrade"
+      - ".:/tradingbot"
     entrypoint:
       - "/bin/bash"

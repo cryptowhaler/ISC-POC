@@ -1,5 +1,5 @@
 #!/Users/apple/Desktop/LifeOrDream.Studio/ISC-POC/.env/bin/python3.7
-# EASY-INSTALL-ENTRY-SCRIPT: 'tradingbot','console_scripts','freqtrade'
+# EASY-INSTALL-ENTRY-SCRIPT: 'tradingbot','console_scripts','tradingbot'
 __requires__ = 'tradingbot'
 import re
 import sys

@@ -7,7 +7,7 @@ if version_info.major == 3 and version_info.minor < 6 or \
     exit(1)
 
 from pathlib import Path  # noqa: E402
-from freqtrade import __version__  # noqa: E402
+from tradingbot import __version__  # noqa: E402
 
 
 readme_file = Path(__file__).parent / "README.md"
@@ -48,16 +48,16 @@ jupyter = [
 
 all_extra = api + plot + develop + jupyter + hyperopt
 
-setup(name='freqtrade',
+setup(name='tradingbot',
       version=__version__,
-      description='Crypto Trading Bot',
+      description='Trading Bot as a POC for ISC:Societe Generale',
       long_description=readme_long,
       long_description_content_type="text/markdown",
       url='https://github.com/freqtrade/freqtrade',
-      author='Freqtrade Team',
-      author_email='michael.egger@tsn.at',
+      author='Rahul Mittal',
+      author_email='pretentiouspunjabiguy@gmail.com',
       license='GPLv3',
-      packages=['freqtrade'],
+      packages=['tradingbot'],
       setup_requires=['pytest-runner', 'numpy'],
       tests_require=['pytest', 'pytest-asyncio', 'pytest-cov', 'pytest-mock', ],
       install_requires=[
@@ -97,7 +97,7 @@ setup(name='freqtrade',
       zip_safe=False,
       entry_points={
           'console_scripts': [
-              'freqtrade = freqtrade.main:main',
+              'tradingbot = tradingbot.main:main',
           ],
       },
       classifiers=[

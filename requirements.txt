@@ -1,3 +1,4 @@
+rapidjson
 # Load common requirements
 -r requirements-common.txt
 

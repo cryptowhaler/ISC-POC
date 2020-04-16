@@ -18,9 +18,9 @@ Classifier: Operating System :: MacOS
 Classifier: Operating System :: Unix
 Classifier: Topic :: Office/Business :: Financial :: Investment
 Description-Content-Type: text/markdown
-Provides-Extra: hyperopt
-Provides-Extra: api
 Provides-Extra: dev
-Provides-Extra: plot
 Provides-Extra: all
+Provides-Extra: api
 Provides-Extra: jupyter
+Provides-Extra: plot
+Provides-Extra: hyperopt
